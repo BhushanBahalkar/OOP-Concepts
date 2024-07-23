@@ -34,3 +34,16 @@ class Banks{
         B.BankRoi();
     }
 }
+
+
+//This program refers to runtime polymorphism concept
+
+// Features of runtime polymorphism 
+
+// Runtime polymorphism or Dynamic mehtod dispatch is process in which a call to an overridden method is resolced at runtime rather than compile time.
+// In this process, an overridden method is called through the reference variable of a superclass.(Upcasting)
+
+// Upcasting means Reference variable of Paren class refers to the object of Child class, it is known as upcasting.
+
+// e.g. In this program we used reference of parent class RuntimePolymorphism which has an method BankRoi in it and in child we have created an object using
+// reference of Parent 
