@@ -20,4 +20,4 @@ public class ChildOne   extends ParentOne{
 
     }
 }
-This repository serves as a comprehensive guide and resource for understanding Object-Oriented Programming (OOP) principles in Java. It is designed for students, educators, and developers who want to deepen their knowledge of OOP and apply these concepts effectively in their Java projects.
+
