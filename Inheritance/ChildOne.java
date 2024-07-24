@@ -28,3 +28,23 @@ public class ChildOne   extends ParentOne{
 
 // here in this proram the Child class inherites all the properties of Parent class using (extends) keyword and inherites all
 // the properties of the Parent class
+
+
+// The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. 
+// When you inherit from an existing class, you can reuse methods and fields of the paren class.
+// Moreover, you can add new methods and fields in your current class also.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
