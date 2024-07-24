@@ -8,6 +8,7 @@ abstract class Bank {
         System.out.println("Create your Bank Account with us....");
 
     }
+
     abstract void roiByBank();
 
     void checkBal(){
@@ -55,5 +56,14 @@ class TestBank{
 
 
 
+// This is the another example of the Abstration which can give you an fare idea about how the methods works in abstracion
+
+// Points to be remember about abstraction:
+
+//  An abstract class myst be declared with an abstract keyword.
+//  It can have abstract and  non-abstract methods.
+//  It can not be instantiated.
+//  It can have constructors and static methods also.
+//  It can have final methods which will force the suclass not to change the body of the method.
 
 
