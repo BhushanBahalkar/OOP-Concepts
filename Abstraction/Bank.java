@@ -65,5 +65,3 @@ class TestBank{
 //  It can not be instantiated.
 //  It can have constructors and static methods also.
 //  It can have final methods which will force the suclass not to change the body of the method.
-
-
