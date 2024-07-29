@@ -34,4 +34,21 @@ public class ChildOne   extends ParentOne{
 // When you inherit from an existing class, you can reuse methods and fields of the paren class.
 // Moreover, you can add new methods and fields in your current class also.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Suggest any changes if you think that they may add more value to this code and explanation.
