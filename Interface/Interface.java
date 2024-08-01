@@ -1,5 +1,4 @@
 package Interface;
 
-public class Interface {
-    
+public interface Interface {
 }
