@@ -1,6 +1,6 @@
 Author: Bhushan Ramesh Bahalkar
 Source: Multiple
-Topic: Inheritance
+Topic: Polymorphism in Java
 
 Polymorphism allows user to serve one action in many ways.
 It allows you to define one interface and implement it on multiple ways.
