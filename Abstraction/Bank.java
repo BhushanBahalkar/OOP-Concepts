@@ -1,6 +1,4 @@
 package Abstraction;
-
-
 abstract class Bank {
 
     Bank(){
