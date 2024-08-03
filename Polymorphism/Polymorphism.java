@@ -24,6 +24,8 @@ public class Polymorphism {
 }
 
 
+
+
 // This program referes to Polymorphism concept in OOP of java
 // Polymorphism, It allows us to perform a single action in different ways. 
 // Polymorphism allows you to define one interface and have multiple implementations
