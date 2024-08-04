@@ -5,20 +5,21 @@ public class Encapsulation {
 
 
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
