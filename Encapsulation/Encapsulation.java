@@ -7,3 +7,18 @@ public class Encapsulation {
         
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
