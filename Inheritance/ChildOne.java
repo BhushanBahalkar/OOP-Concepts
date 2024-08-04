@@ -52,7 +52,4 @@ public class ChildOne   extends ParentOne{
 
 
 
-
-
-
 //Suggest any changes if you think that they may add more value to this code and explanation.
