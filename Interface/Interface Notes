@@ -4,3 +4,7 @@ Title: Interface in Java
 
 An interface is a reference type that acts as a blueprint for class.
 It defines a set of methods and constant variables.
+
+Interface provide a way to achieve abstraction focusing on what a class should do rather than how it does it.44
+
+
