@@ -7,5 +7,11 @@ It defines a set of methods and constant variables.
 
 Interface provide a way to achieve abstraction focusing on what a class should do rather than how it does it.
 
+Interfaces could only have abstract methods, and public static and final variables by default.
 
+It implies Is-A relationship, Which means that a subclass is specific type of its superclass.
 
+e.g : consider a class hierarchy with a superclass called "Animal" and a subclass called "Dog." 
+      We can say that a Dog is an Animal, which reflects the is-a relationship.
+
+In java, the abstract keyword applies only to classes and methods indicating that they can not be instantiated directly and must be implemented .
