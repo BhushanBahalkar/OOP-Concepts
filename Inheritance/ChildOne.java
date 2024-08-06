@@ -25,6 +25,8 @@ public class ChildOne   extends ParentOne{
 
 
 
+
+
 // This program referes to inheritance concept in OOP of java
 // Inheritance, When an object aquires all the properties and behabiours of a parent object is known as Inheritance 
 // It provides code reuabitity to us
