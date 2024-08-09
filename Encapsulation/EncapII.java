@@ -4,10 +4,12 @@ class Name {
     //Here we are using private to hide the actual data from the user 
     private int age;
 
+    //getter
     public int getAge() {
         return age;
     }
 
+    //setter
     public void setAge(int age) {
         this.age = age;
     }
