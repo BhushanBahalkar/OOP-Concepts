@@ -10,13 +10,16 @@ public class ChildOne extends ParentOne {
         System.out.println("In Method Two");
     }
 
+    void mThree(int X, int Y){
+        System.out.println("In Method Three");
+    }
+
     public static void main(String[] args) {
 
         ParentOne P = new ParentOne();
         P.mOne();
 
         ChildOne C = new ChildOne();
-
         C.mTwo();
 
     }
