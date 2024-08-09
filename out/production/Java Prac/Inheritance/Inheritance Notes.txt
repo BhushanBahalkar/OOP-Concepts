@@ -1,0 +1,29 @@
+Author: Bhushan Ramesh Bahalkar
+Source: Multiple
+Topic: Inheritance
+
+When an object acquires all the properties and behaviors of a parent object is known as inheritance.
+Inheritance provides code reusability.
+It represents parent-child relationship.
+We can use (extends) keyword to inherit the properties of the other classes.
+however, multiple inheritance is not possible in java, to reduce the complexity and simplify the language, but to achieve that task we have (Interfaces) to 
+do the task.
+
+
+Types of Inheritance:
+
+1. Single level inheritance: In this type of inheritance, only two classes are there base class &
+one is derived class.
+
+2. Multi-level inheritance: In this type of inheritance derived class becomes base for another class,
+then, multi-level inheritance occurs.It is like a chain of inheritances.
+
+3. Hierarchical inheritance: Here two or more classes inherit a single class.
+
+
+In industry there are many aspects where inheritance is used to develop the particular software,
+here are some examples: GUI(Graphical User Interfaces),Game Development, Financial Software's,
+Web development, Automotive software's and E-commers platforms, etc.
+
+In each example, Inheritance promotes code reuse, code reduce and redundancy and make codebase
+more maintainable.  

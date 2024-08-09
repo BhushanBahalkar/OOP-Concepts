@@ -1,0 +1,17 @@
+Author: Bhushan Ramesh Bahalkar
+Source: Multiple
+Topic: Polymorphism in Java
+
+Polymorphism allows user to serve one action in many ways.
+It allows you to define one interface and implement it on multiple ways.
+
+There are mainly two types of polymorphism
+
+1.Compile Time Polymorphism/Method Overloading/Static Polymorphism/Early Binding
+
+2.Run Time Polymorphism/Method Overriding/Dynamic Method Dispatch/Late Binding
+
+I. C.T.P/M.Overloading/S.P/Early Binding:
+Compile time polymorphism allows you to define multiple methods with same name within same class but with different parameters
+lists
+Compile time polymorphism is faster than the Run time polymorphism as it 
