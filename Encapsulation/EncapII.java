@@ -1,7 +1,7 @@
 package Encapsulation;
 
 class Name {
-
+    //Here we are using private to hide the actual data from the user 
     private int age;
 
     public int getAge() {
