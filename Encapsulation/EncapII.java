@@ -1,15 +1,15 @@
 package Encapsulation;
 
 class Name {
-    // Here we are using private to hide the actual data from the user
+    //Here we are using private to hide the actual data from the user 
     private int age;
 
-    // getter
+    //getter
     public int getAge() {
         return age;
     }
 
-    // setter
+    //setter
     public void setAge(int age) {
         this.age = age;
     }
