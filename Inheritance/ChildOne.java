@@ -10,7 +10,7 @@ public class ChildOne extends ParentOne {
         System.out.println("In Method Two");
     }
 
-    void mThree(int X, int Y) {
+    void mThree(int X, int Y){
         System.out.println("In Method Three");
     }
 
