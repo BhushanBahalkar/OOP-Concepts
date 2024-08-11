@@ -12,6 +12,7 @@ public class ChildOne extends ParentOne {
 
     void mThree(int X, int Y) {
         System.out.println("In Method Three");
+        System.out.println("The value of X is : "+ X);
         
     }
 
