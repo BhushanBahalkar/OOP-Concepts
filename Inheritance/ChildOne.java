@@ -12,8 +12,8 @@ public class ChildOne extends ParentOne {
 
     void mThree(int X, int Y) {
         System.out.println("In Method Three");
-        System.out.println("The value of X is : "+ X);
-        System.out.println("The Value of Y is:"+ Y);
+        System.out.println("The value of X is : " + X);
+        System.out.println("The Value of Y is:" + Y);
 
     }
 
@@ -24,7 +24,7 @@ public class ChildOne extends ParentOne {
 
         ChildOne C = new ChildOne();
         C.mTwo();
-        C.mThree(10,15);
+        C.mThree(10, 15);
 
     }
 }
