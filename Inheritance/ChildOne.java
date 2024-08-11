@@ -12,6 +12,7 @@ public class ChildOne extends ParentOne {
 
     void mThree(int X, int Y) {
         System.out.println("In Method Three");
+        
     }
 
     public static void main(String[] args) {
@@ -21,6 +22,8 @@ public class ChildOne extends ParentOne {
 
         ChildOne C = new ChildOne();
         C.mTwo();
+
+        C.mThree(10,15);
 
     }
 }
