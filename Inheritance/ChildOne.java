@@ -24,7 +24,6 @@ public class ChildOne extends ParentOne {
 
         ChildOne C = new ChildOne();
         C.mTwo();
-
         C.mThree(10,15);
 
     }
