@@ -6,11 +6,11 @@ class Person {
     private int age;
     private int mobileNo;
 
-    public int getmobileNo(){
+    public int getmobileNo() {
         return mobileNo;
     }
-  
-    public void setmobileNo(int mobileNo){
+
+    public void setmobileNo(int mobileNo) {
         this.mobileNo = mobileNo;
     }
 
@@ -41,6 +41,6 @@ public class Encapsulation {
 
         System.out.println("Name: " + person.getName());
         System.out.println("Age: " + person.getAge());
-        System.out.println("Mobile NO:"+ person.getmobileNo());
+        System.out.println("Mobile NO:" + person.getmobileNo());
     }
 }
