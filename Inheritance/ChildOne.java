@@ -13,7 +13,8 @@ public class ChildOne extends ParentOne {
     void mThree(int X, int Y) {
         System.out.println("In Method Three");
         System.out.println("The value of X is : "+ X);
-        
+        System.out.println("The Value of Y is:"+ Y);
+
     }
 
     public static void main(String[] args) {
