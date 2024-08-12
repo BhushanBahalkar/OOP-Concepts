@@ -6,8 +6,6 @@ class Person {
     private int age;
     private int mobileNo;
 
-    
-
     public int getmobileNo() {
         return mobileNo;
     }
