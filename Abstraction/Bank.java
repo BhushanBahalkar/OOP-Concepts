@@ -31,7 +31,7 @@ class SBI extends Bank{
     void roiByBank() {
         System.out.println("SBI");
         System.out.println("We give 7.15% ROI for you");
-        System.out.println("Thank You Visit Again");
+      
 
     }
 }
