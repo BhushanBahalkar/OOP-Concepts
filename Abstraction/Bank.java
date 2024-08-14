@@ -1,24 +1,24 @@
 package Abstraction;
+
 abstract class Bank {
 
-    Bank(){
+    Bank() {
 
         System.out.println("____________________________________");
         System.out.println(" Create your Bank Account with us ");
         System.out.println("____________________________________");
-       
-
 
     }
 
     abstract void roiByBank();
 
-    void checkBal(){
+    void checkBal() {
         System.out.println("Please check your balance");
         System.out.println(" ");
     }
 }
-class HDFC extends Bank{
+
+class HDFC extends Bank {
     @Override
     void roiByBank() {
         System.out.println("HDFC Bank");
@@ -26,25 +26,26 @@ class HDFC extends Bank{
 
     }
 }
-class SBI extends Bank{
+
+class SBI extends Bank {
     @Override
     void roiByBank() {
         System.out.println("SBI");
         System.out.println("We give 7.15% ROI for you");
-      
 
     }
 }
-class ICICI extends Bank{
+
+class ICICI extends Bank {
     @Override
     void roiByBank() {
         System.out.println("ICICI Bank");
         System.out.println("We provide 8.10% of ROI for you");
-     
 
     }
 }
-class TestBank{
+
+class TestBank {
     public static void main(String[] args) {
         Bank b = new HDFC();
         b.roiByBank();
@@ -54,43 +55,24 @@ class TestBank{
         b.roiByBank();
         b.checkBal();
 
-        b= new ICICI();
+        b = new ICICI();
         b.roiByBank();
         b.checkBal();
 
     }
 }
 
-
-
-
-
-
-
-
-
-// This is the another example of the Abstration which can give you an fare idea about how the methods works in abstracion
+// This is the another example of the Abstration which can give you an fare idea
+// about how the methods works in abstracion
 
 // Points to be remember about abstraction:
 
-//  An abstract class myst be declared with an abstract keyword.
-//  It can have abstract and  non-abstract methods.
-//  It can not be instantiated.
-//  It can have constructors and static methods also.
-//  It can have final methods which will force the suclass not to change the body of the method.
+// An abstract class myst be declared with an abstract keyword.
+// It can have abstract and non-abstract methods.
+// It can not be instantiated.
+// It can have constructors and static methods also.
+// It can have final methods which will force the suclass not to change the body
+// of the method.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//Suggest any changes if you think that they may add more value to this code and explanation.
+// Suggest any changes if you think that they may add more value to this code
+// and explanation.
