@@ -10,7 +10,6 @@ class Person {
         return mobileNo;
     }
 
-    
     public void setmobileNo(int mobileNo) {
         this.mobileNo = mobileNo;
     }
