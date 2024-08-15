@@ -24,6 +24,11 @@ class HDFC extends Bank {
         System.out.println("HDFC Bank");
         System.out.println("8% is our ROI for you");
 
+
+    void withdraw(){
+        System.out.println("Withdraw your money?");
+    }
+
     }
 }
 
