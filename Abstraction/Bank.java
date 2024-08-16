@@ -25,10 +25,6 @@ class HDFC extends Bank {
         System.out.println("8% is our ROI for you");
 
 
-    void withdraw(){
-        System.out.println("Withdraw your money?");
-    }
-
     }
 }
 
@@ -67,6 +63,8 @@ class TestBank {
 
     }
 }
+
+
 
 // This is the another example of the Abstration which can give you an fare idea
 // about how the methods works in abstracion
