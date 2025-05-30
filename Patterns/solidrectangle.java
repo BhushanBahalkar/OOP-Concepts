@@ -11,6 +11,7 @@ public class solidrectangle {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int m = Integer.parseInt(br.readLine());
         int n = Integer.parseInt(br.readLine());
+        System.out.println(" ");
 
         for(int i = 1; i<=m; i++){
             for(int j = 1; j<= n; j++){
