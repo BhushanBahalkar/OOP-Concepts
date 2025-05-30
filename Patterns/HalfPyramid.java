@@ -13,14 +13,13 @@ public class HalfPyramid {
         // int n = Integer.parseInt(br.readLine());
         System.out.println(" ");
 
-        for(int i = 1; i<= m ; i++){
-            for(int j= 1; j<=i; j++){
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println(" ");
 
         }
-        
 
         System.out.println(" ");
     }
