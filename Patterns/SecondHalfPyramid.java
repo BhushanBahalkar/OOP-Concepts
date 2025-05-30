@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class SecondHalfPyramid {
-public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         System.out.println("Enter the number of row's : ");
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -13,14 +13,15 @@ public static void main(String[] args) throws IOException {
         // int n = Integer.parseInt(br.readLine());
         System.out.println(" ");
 
-        for(int i = 1; i<= m ; i++){
-            for(int j= 1; j<=i; j++){
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= m - i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println(" ");
-
         }
-        
 
         System.out.println(" ");
     }
