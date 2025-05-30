@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class NumInvHalfPyramid {
-      public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         System.out.println("Enter the number of row's : ");
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -14,7 +14,7 @@ public class NumInvHalfPyramid {
         System.out.println(" ");
 
         for (int i = 1; i <= m; i++) {
-            for (int j = 1; j <= m-i + 1; j++) {
+            for (int j = 1; j <= m - i + 1; j++) {
                 System.out.print(j + " ");
             }
             System.out.println(" ");
