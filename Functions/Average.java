@@ -6,14 +6,14 @@ import java.io.InputStreamReader;
 
 public class Average {
 
-    public static void AverageCalculator(double a, double b, double c){
-        double sum = a + b + c ;
-        double average = sum/3.0;
+    public static void AverageCalculator(double a, double b, double c) {
+        double sum = a + b + c;
+        double average = sum / 3.0;
         System.out.println("The average of these three numbers is:" + average);
     }
 
     public static void main(String[] args) throws IOException {
-        
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Enter the first number:");
         double a = Double.parseDouble(br.readLine());
