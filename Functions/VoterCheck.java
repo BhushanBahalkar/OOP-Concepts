@@ -14,6 +14,7 @@ public class VoterCheck {
 
     public static void main(String[] args) {
         
+        System.out.println("Enter your age to check if you are eligible to vote:");
         Scanner sc = new Scanner(System.in);
         int age = sc.nextInt();
 
