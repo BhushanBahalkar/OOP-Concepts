@@ -3,7 +3,7 @@ package Functions;
 public class CircumferenceofCircle {
     
     public static void CircumferenceCalculator(double radius) {
-        double circumference = 2 * 3.14 * radius;
+        double circumference = 2 * 3.14159265359 * radius;
         System.out.println("The circumference of the circle with radius " + radius + " is: " + circumference);
     }
 
