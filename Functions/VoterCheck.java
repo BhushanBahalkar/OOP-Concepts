@@ -18,7 +18,7 @@ public class VoterCheck {
         Scanner sc = new Scanner(System.in);
         int age = sc.nextInt();
 
-        if(age<0){
+        if(age<=0){
             System.out.println("Please Enter a valid age.");
         }
         else{
