@@ -16,7 +16,7 @@ public class Array {
 
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]);
-         
+
             if (arr[i] > max) {
                 max = arr[i];
 
@@ -25,7 +25,7 @@ public class Array {
                 min = arr[i];
             }
 
-               sum += arr[i];
+            sum += arr[i];
         }
 
         System.out.println("\nThe maximum value in the array is: " + max);
@@ -54,7 +54,8 @@ public class Array {
 
         String[] strArr = new String[size];
         System.out.println("\n" + "Enter " + size + " strings for the string array:");
-        sc.nextLine(); // Consume the newline character
+        sc.nextLine();
+
         for (int i = 0; i < size; i++) {
             strArr[i] = sc.nextLine();
         }
