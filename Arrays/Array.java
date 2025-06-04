@@ -24,9 +24,10 @@ public class Array {
             if (arr[i] < min) {
                 min = arr[i];
             }
-
         }
 
+        System.out.println("\nThe maximum value in the array is: " + max);
+        System.out.println("The minimum value in the array is: " + min);
         System.out.println("\nThe sum of the array elements is: " + sum);
         System.out.println("The average of the array elements is: " + sum / arr.length);
         System.out.println(" ");
