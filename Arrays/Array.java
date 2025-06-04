@@ -11,12 +11,12 @@ public class Array {
 
         int[] arr = { 1, 2, 3, 4, 5 };
         int sum = 0;
-        int max = Integer.MAX_VALUE;
-        int min = Integer.MIN_VALUE;
+        int max = arr[0];
+        int min = arr[0];
 
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]);
-            sum += arr[i];
+         
             if (arr[i] > max) {
                 max = arr[i];
 
@@ -24,6 +24,8 @@ public class Array {
             if (arr[i] < min) {
                 min = arr[i];
             }
+
+               sum += arr[i];
         }
 
         System.out.println("\nThe maximum value in the array is: " + max);
