@@ -1,5 +1,5 @@
 package Arrays;
-
+import java.util.*;
 public class Array {
 
     public static void main(String[] args) {
@@ -10,7 +10,24 @@ public class Array {
             sum += arr[i];
         }
         System.out.println("The sum of the array elements is: " + sum);
-        System.out.println("The average of the array elements is: " + (double) sum / arr.length);
+        System.out.println("The average of the array elements is: " + sum / arr.length);
+        System.out.println(" ");
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the size of the array: ");
+        int size = sc.nextInt();
+        int[] userArray = new int[size];
+        System.out.println("Enter " + size + " elements for the array:");
+       
+        for (int i = 0; i < size; i++) {
+            userArray[i] = sc.nextInt();
+        }   
+        for (int i = 0; i < userArray.length; i++) {
+            System.out.print(userArray[i] + " ");
+        }
+
+
+
 
     }
     
