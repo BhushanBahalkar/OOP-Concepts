@@ -1,5 +1,17 @@
 package Arrays;
 
 public class Array {
+
+    public static void main(String[] args) {
+        
+        int[] arr = {1, 2, 3, 4, 5};
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+        }
+        System.out.println("The sum of the array elements is: " + sum);
+        System.out.println("The average of the array elements is: " + (double) sum / arr.length);
+
+    }
     
 }
