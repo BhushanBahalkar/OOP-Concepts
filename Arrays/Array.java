@@ -51,18 +51,18 @@ public class Array {
         }
 
         boolean isSorted = true;
-        for(int i =0; i<arr.length -1 ; i++){
-            if(userArray[i] > userArray[i+1]){
+        for (int i = 0; i < arr.length - 1; i++) {
+            if (userArray[i] > userArray[i + 1]) {
                 isSorted = false;
                 break;
             }
         }
-        if(isSorted){
+        if (isSorted) {
             System.out.println("\nThe array is sorted.");
         } else {
             System.out.println("\nThe array is not sorted.");
         }
-        
+
         // Example of a string array with user input
 
         String[] strArr = new String[size];
