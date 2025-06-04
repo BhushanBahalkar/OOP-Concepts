@@ -53,7 +53,8 @@ public class Array {
         // Example of a string array with user input
 
         String[] strArr = new String[size];
-        System.out.println("\n" + "Enter " + size + " strings for the string array:");
+        System.out.println(" ");
+        System.out.println("Enter " + size + " strings for the string array:");
         sc.nextLine();
 
         for (int i = 0; i < size; i++) {
