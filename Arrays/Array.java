@@ -1,18 +1,30 @@
 package Arrays;
+
 import java.util.*;
+
 public class Array {
 
     public static void main(String[] args) {
-        
+
         // Example of a simple array
         System.out.println("Example of a simple array:");
 
-        int[] arr = {1, 2, 3, 4, 5};
+        int[] arr = { 1, 2, 3, 4, 5 };
         int sum = 0;
+        int max = Integer.MAX_VALUE;
+        int min = Integer.MIN_VALUE;
+
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]);
-            
             sum += arr[i];
+            if (arr[i] > max) {
+                max = arr[i];
+
+            }
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+
         }
 
         System.out.println("\nThe sum of the array elements is: " + sum);
@@ -26,35 +38,29 @@ public class Array {
         int size = sc.nextInt();
         int[] userArray = new int[size];
         System.out.println("Enter " + size + " elements for the array:");
-       
+
         for (int i = 0; i < size; i++) {
             userArray[i] = sc.nextInt();
-        }   
+        }
         System.out.println(" ");
         for (int i = 0; i < userArray.length; i++) {
             System.out.print(userArray[i] + " ");
         }
-        
+
         // Example of a string array with user input
-        
+
         String[] strArr = new String[size];
         System.out.println("\n" + "Enter " + size + " strings for the string array:");
         sc.nextLine(); // Consume the newline character
         for (int i = 0; i < size; i++) {
             strArr[i] = sc.nextLine();
-        }   
+        }
         System.out.println(" ");
         for (int i = 0; i < strArr.length; i++) {
             System.out.print(strArr[i] + " ");
         }
         System.out.println("\n ");
 
-
-
-
-
-
-
     }
-    
+
 }
